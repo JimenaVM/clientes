@@ -64,7 +64,7 @@
                 <EditText
                     android:layout_width="223dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText2"
+                    android:id="@+id/textview_id_cliente"
                     android:layout_gravity="right|center_vertical" />
             </FrameLayout>
 
@@ -91,7 +91,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText3"
+                android:id="@+id/textview_nombre_cliente"
                 android:layout_weight="1" />
 
             <ImageButton
