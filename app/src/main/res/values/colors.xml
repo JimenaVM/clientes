@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#555555</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#FFF82828</color>
+    <color name="fragment_bg">#000000</color>
+    <color name="convig">#FFCF8C8C</color>
+    <color name="blanco">#ffffff</color>
+
+
+</resources>

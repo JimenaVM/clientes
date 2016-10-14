@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="People"
+        android:textSize="30sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="839dp"
+        android:layout_marginStart="839dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logoarriba"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#f72323"
+        android:layout_below="@+id/imageView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:id="@+id/relativeLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText35"
+                android:typeface="sans"
+                android:layout_above="@+id/editText36"
+                android:layout_alignRight="@+id/editText36"
+                android:layout_alignEnd="@+id/editText36"
+                android:layout_toRightOf="@+id/textView18"
+                android:layout_toEndOf="@+id/textView18" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText36"
+                android:typeface="normal"
+                android:layout_alignBottom="@+id/textView44"
+                android:layout_alignRight="@+id/editText37"
+                android:layout_alignEnd="@+id/editText37"
+                android:layout_alignLeft="@+id/editText37"
+                android:layout_alignStart="@+id/editText37" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText37"
+                android:typeface="sans"
+                android:layout_above="@+id/editText38"
+                android:layout_alignLeft="@+id/editText38"
+                android:layout_alignStart="@+id/editText38"
+                android:layout_alignRight="@+id/editText38"
+                android:layout_alignEnd="@+id/editText38" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText38"
+                android:typeface="sans"
+                android:layout_above="@+id/editText39"
+                android:layout_alignLeft="@+id/editText39"
+                android:layout_alignStart="@+id/editText39"
+                android:layout_alignRight="@+id/editText39"
+                android:layout_alignEnd="@+id/editText39" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText39"
+                android:typeface="sans"
+                android:layout_alignBottom="@+id/textView47"
+                android:layout_toRightOf="@+id/textView47"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText40"
+                android:typeface="sans"
+                android:layout_above="@+id/editText42"
+                android:layout_toRightOf="@+id/textView46"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText41"
+                android:typeface="sans"
+                android:layout_above="@+id/editText40"
+                android:layout_alignRight="@+id/editText40"
+                android:layout_alignEnd="@+id/editText40"
+                android:layout_alignLeft="@+id/imageView3"
+                android:layout_alignStart="@+id/imageView3" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText42"
+                android:typeface="sans"
+                android:layout_alignBottom="@+id/textView50"
+                android:layout_alignLeft="@+id/editText40"
+                android:layout_alignStart="@+id/editText40"
+                android:layout_alignRight="@+id/editText40"
+                android:layout_alignEnd="@+id/editText40" />
+
+            <ImageButton
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/atras"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+                android:background="@drawable/boton"
+                android:layout_weight="0.18"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/textView50"
+                android:layout_alignEnd="@+id/textView50" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_above="@+id/textView44"
+                android:layout_alignRight="@+id/textView18"
+                android:layout_alignEnd="@+id/textView18" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/datoscliente"
+                android:layout_above="@+id/editText35"
+                android:layout_alignRight="@+id/textView45"
+                android:layout_alignEnd="@+id/textView45" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nº Documento:"
+                android:id="@+id/textView18"
+                android:typeface="sans"
+                android:layout_above="@+id/editText36"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Id Cliente:"
+                android:id="@+id/textView44"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_above="@+id/editText37"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nombre:"
+                android:id="@+id/textView45"
+                android:typeface="sans"
+                android:layout_above="@+id/editText38"
+                android:layout_alignLeft="@+id/textView49"
+                android:textStyle="bold"
+                android:layout_alignStart="@+id/textView49" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tipo cliente:"
+                android:id="@+id/textView46"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_above="@+id/editText39"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Seg. mercado:"
+                android:id="@+id/textView47"
+                android:typeface="sans"
+                android:layout_above="@+id/editText41"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Telefono:"
+                android:id="@+id/textView48"
+                android:typeface="sans"
+                android:layout_above="@+id/editText40"
+                android:layout_alignLeft="@+id/textView49"
+                android:textStyle="bold"
+                android:layout_alignStart="@+id/textView49" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Celular:"
+                android:id="@+id/textView49"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:layout_above="@+id/editText42"
+                android:layout_alignLeft="@+id/atras"
+                android:layout_alignStart="@+id/atras" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Correo:"
+                android:id="@+id/textView50"
+                android:typeface="sans"
+                android:layout_marginBottom="41dp"
+                android:layout_above="@+id/atras"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DATOS CLIENTE"
+                android:id="@+id/textView51"
+                android:layout_above="@+id/editText35"
+                android:layout_toRightOf="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView6"
+                android:textStyle="bold"
+                android:textSize="23dp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>
